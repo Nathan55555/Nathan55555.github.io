@@ -316,6 +316,14 @@ a .example-image-link image
   position: relative;
   color: #173b6c;
 }
+.surligner h3{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #515255;
+}
 .section-title h2::after {
   content: "";
   position: absolute;
@@ -338,6 +346,18 @@ a .example-image-link image
   font-size: 26px;
   color: #173b6c;
 }
+.surligner h3::after
+{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+
 .about .content ul {
   list-style: none;
   padding: 0;
