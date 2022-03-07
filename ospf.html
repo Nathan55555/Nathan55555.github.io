@@ -89,6 +89,15 @@
           
             <p>Le routage OSPF (Open Shortest Path First) est un protocole de routage utilisé dans les réseaux des grandes entreprises.</p>
             <p>Le protocole OSPF calcule le chemin le plus court en fonction du coup et de la vitesse de la bande passante.</p>
+            <br>
+            <p>Avant de fonctionner les routers doivent effectuer certaines taches:</p>
+            <ul>
+              <li>Établir la liste des routeurs voisins</li>
+              <li>Élire le routeur désigné et le routeur de secours</li>
+              <li>Découvrir les routes</li>
+              <li>Élire les routes à utiliser</li>
+              <li>Maintenir la base topologique.</li>
+            </ul>
             <p>Dans le cadre de mon TP j'ai mis en place plusieurs vlans avec un dhcp associé a chaqun de ces derniers.</p>
         <br>
         <h3>Realisation</h3>
@@ -154,5 +163,10 @@
         <p>On utilise des interfaces SUB(Virtuelle) car par principe une interface est utilisé pour un domaine de difusion hors la on veut faire passer plusieurs domaines de diffusions un pour chaque vlan d'ou l'utilisation de ces derniers.</p>
 <br><br>
         <h3 id="con">Conclusion</h3>
+        <p>OSPF est un protocole de routage dynamique conçu pour les grands réseaux.</p>
+        <p>On constate qu'il est nettement plus complexe que RIP, il n'aime pas le changement topologique</p>
+        <p>Le Routage OSPF est trés gourmand en puissance de calcul et en mémoire</p>
+        <p>Enfin ce TP m'a permis de bien comprendre ce protocole, ainsi que le mettre en place</p>
+
         </div>
         
